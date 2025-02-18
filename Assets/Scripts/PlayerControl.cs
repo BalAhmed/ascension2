@@ -9,10 +9,11 @@ public class PlayerControl : MonoBehaviour
     bool left = false;
 
     private Rigidbody2D rb;
-    
+    Animator playerAnimator;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerAnimator = GetComponent<Animator>();
     }
 
    
@@ -25,6 +26,7 @@ public class PlayerControl : MonoBehaviour
     {
 
         float moveHorizontal = Input.GetAxis("Horizontal");
+        playerAnimator.SetFloat("Speed", Mathf.Abs(moveHorizontal));
 
         // Move
         rb.linearVelocity = new Vector2(moveHorizontal * speed, rb.linearVelocityY);
@@ -48,7 +50,12 @@ public class PlayerControl : MonoBehaviour
             {
                 rb.linearVelocity = new Vector3(rb.linearVelocityX, jumpForce, 0);
                 shouldJump = false;
+                playerAnimator.SetBool("Jump", true);
             }
+        }
+        if (Mathf.Approximately(rb.linearVelocityY,0) && playerAnimator.GetBool("Jump"))
+        {
+            playerAnimator.SetBool("Jump", false);
         }
     }
 
