@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Floor
+  - LowTrampoline
+  - MidTrampoline
+  - HighTrampoline
+  - Ladder
+  - Platform
+  - Water
   layers:
   - Default
   - TransparentFX

@@ -1,10 +1,11 @@
+using Unity.VisualScripting;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerControl : MonoBehaviour
 {
     public float speed;
     public float jumpForce;
-    public float jumpTime = 0.5f;
+    public float trampolineForce;
     bool shouldJump = true;
     bool left = false;
 
@@ -73,6 +74,26 @@ public class PlayerControl : MonoBehaviour
         {
             shouldJump = true;
         }
+        if (collision.transform.CompareTag("LowTrampoline"))
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce);
+        }
+        if (collision.transform.CompareTag("MidTrampoline"))
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 1.4f);
+        }
+        if (collision.transform.CompareTag("HighTrampoline"))
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 1.65f);
+            
+        }
+        if (collision.transform.CompareTag("Water") || collision.transform.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+        
+
+
     }
     
 }
