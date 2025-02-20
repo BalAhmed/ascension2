@@ -1,26 +1,32 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class PlayerControl : MonoBehaviour
 {
     public float speed;
     public float jumpForce;
     public float trampolineForce;
+    public Text finishText;
+    public Button reloadButton;
     bool shouldJump = true;
     bool left = false;
 
     private Rigidbody2D rb;
     Animator playerAnimator;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        finishText.gameObject.SetActive(false);
+        reloadButton.gameObject.SetActive(false);
     }
 
    
     void Update()
     {
-        
+
     }
 
     private void FixedUpdate()
@@ -87,13 +93,22 @@ public class PlayerControl : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 1.65f);
             
         }
-        if (collision.transform.CompareTag("Water") || collision.transform.CompareTag("Finish"))
+        if (collision.transform.CompareTag("Water"))
         {
             SceneManager.LoadScene("SampleScene");
         }
+        if(collision.transform.CompareTag("Finish"))
+        {
+            Time.timeScale = 0f;
+            finishText.gameObject.SetActive(true);
+            reloadButton.gameObject.SetActive(true);
+        }
         
+    }
 
-
+    public void ReloadGame()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
     
 }
