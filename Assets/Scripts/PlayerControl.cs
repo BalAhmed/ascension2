@@ -109,6 +109,7 @@ public class PlayerControl : MonoBehaviour
     public void ReloadGame()
     {
         SceneManager.LoadScene("SampleScene");
+        Time.timeScale = 1f;
     }
     
 }
