@@ -95,7 +95,7 @@ public class PlayerControl : MonoBehaviour
         }
         if (collision.transform.CompareTag("Water"))
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("GameScene");
         }
         if(collision.transform.CompareTag("Finish"))
         {
@@ -108,7 +108,7 @@ public class PlayerControl : MonoBehaviour
 
     public void ReloadGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("GameScene");
         Time.timeScale = 1f;
     }
     

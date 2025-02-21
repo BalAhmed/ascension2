@@ -1,0 +1,993 @@
+fileFormatVersion: 2
+guid: 28fdb30ec11ce5d48ac1c72e0e66527d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3978546750201040967
+    second: PixelButtons_0
+  - first:
+      213: 5565632199834654625
+    second: PixelButtons_1
+  - first:
+      213: 2982861513129395
+    second: PixelButtons_2
+  - first:
+      213: -6074413498970461032
+    second: PixelButtons_3
+  - first:
+      213: -5750071804339058782
+    second: PixelButtons_4
+  - first:
+      213: -2531384794715774990
+    second: PixelButtons_5
+  - first:
+      213: -4360186314438745599
+    second: PixelButtons_6
+  - first:
+      213: -5096788125645719633
+    second: PixelButtons_7
+  - first:
+      213: -3909366194763924176
+    second: PixelButtons_8
+  - first:
+      213: 503095000266048754
+    second: PixelButtons_9
+  - first:
+      213: -3479878303287320486
+    second: PixelButtons_10
+  - first:
+      213: 1609460725758603779
+    second: PixelButtons_11
+  - first:
+      213: -7535608982851085681
+    second: PixelButtons_12
+  - first:
+      213: -8152260342519116128
+    second: PixelButtons_13
+  - first:
+      213: -1292907498867017552
+    second: PixelButtons_14
+  - first:
+      213: -7119168954834990042
+    second: PixelButtons_15
+  - first:
+      213: -8737181842205355822
+    second: PixelButtons_16
+  - first:
+      213: -6678637764432662831
+    second: PixelButtons_17
+  - first:
+      213: 2755969193093833294
+    second: PixelButtons_18
+  - first:
+      213: -881699459856639321
+    second: PixelButtons_19
+  - first:
+      213: -2255974632039229365
+    second: PixelButtons_20
+  - first:
+      213: -4203271943702620711
+    second: PixelButtons_21
+  - first:
+      213: -7009976207267007965
+    second: PixelButtons_22
+  - first:
+      213: -3565367707374361166
+    second: PixelButtons_23
+  - first:
+      213: -580150039347049437
+    second: PixelButtons_24
+  - first:
+      213: -3814834467430587621
+    second: PixelButtons_25
+  - first:
+      213: 8057749394262469052
+    second: PixelButtons_26
+  - first:
+      213: -7861540000533746483
+    second: PixelButtons_27
+  - first:
+      213: 9103546120237416267
+    second: PixelButtons_28
+  - first:
+      213: 8090891629936909614
+    second: PixelButtons_29
+  - first:
+      213: -4743885058610316511
+    second: PixelButtons_30
+  - first:
+      213: -4633641016778842474
+    second: PixelButtons_31
+  - first:
+      213: -4686959536963405124
+    second: PixelButtons_32
+  - first:
+      213: -4309668092230400298
+    second: PixelButtons_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PixelButtons_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 335
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf6bf75fcc59c8c0800000000000000
+      internalID: -3978546750201040967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 342
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7de9d6ff81d3d40800000000000000
+      internalID: 5565632199834654625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 335
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd77e095e89a0000800000000000000
+      internalID: 2982861513129395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 346
+        width: 157
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c27073b1953bba0800000000000000
+      internalID: -6074413498970461032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_4
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 345
+        width: 155
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7816db824a330b0800000000000000
+      internalID: -5750071804339058782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_5
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 346
+        width: 155
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff1429e0f6bedcd0800000000000000
+      internalID: -2531384794715774990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_6
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 339
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102eb55f5a18d73c0800000000000000
+      internalID: -4360186314438745599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 346
+        width: 153
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7357324329449b0800000000000000
+      internalID: -5096788125645719633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 333
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dfc2898242fb9c0800000000000000
+      internalID: -3909366194763924176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_9
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 335
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4022bbc3a5bf600800000000000000
+      internalID: 503095000266048754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 259
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5068fece1df4bfc0800000000000000
+      internalID: -3479878303287320486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 253
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302b8c6b004f55610800000000000000
+      internalID: 1609460725758603779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 259
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a1be23e832c6790800000000000000
+      internalID: -7535608982851085681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_13
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 263
+        width: 155
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aec4a7396a5dde80800000000000000
+      internalID: -8152260342519116128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_14
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 263
+        width: 155
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8b79ada7bae0ee0800000000000000
+      internalID: -1292907498867017552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_15
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 263
+        width: 155
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c4217fd81a33d90800000000000000
+      internalID: -7119168954834990042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_16
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 263
+        width: 153
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d05b55f76b4fb680800000000000000
+      internalID: -8737181842205355822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 253
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de6b739656b053a0800000000000000
+      internalID: -6678637764432662831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 14
+        width: 27
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42274e116b2f3620800000000000000
+      internalID: 2755969193093833294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 177
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa5790430393c3f0800000000000000
+      internalID: -881699459856639321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 177
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48520b560b21b0e0800000000000000
+      internalID: -2255974632039229365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 177
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d55d35ef6afaa5c0800000000000000
+      internalID: -4203271943702620711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 174
+        width: 161
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322f8e9a7cf87be90800000000000000
+      internalID: -7009976207267007965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_23
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 176
+        width: 160
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b56d44d5f4458ec0800000000000000
+      internalID: -3565367707374361166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_24
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 181
+        width: 155
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c4a4cec94e2f7f0800000000000000
+      internalID: -580150039347049437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_25
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 174
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1322e3834cfe0bc0800000000000000
+      internalID: -3814834467430587621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_26
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 181
+        width: 153
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9222ed160e2df60800000000000000
+      internalID: 8057749394262469052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 94
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc69a0950336e290800000000000000
+      internalID: -7861540000533746483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_28
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 94
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ff225b6fa465e70800000000000000
+      internalID: 9103546120237416267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 93
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d129ee11f984070800000000000000
+      internalID: 8090891629936909614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_30
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 98
+        width: 155
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bbf326ca55a2eb0800000000000000
+      internalID: -4743885058610316511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_31
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 98
+        width: 155
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e973a9b0002bfb0800000000000000
+      internalID: -4633641016778842474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_32
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 98
+        width: 155
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbabaaa322394feb0800000000000000
+      internalID: -4686959536963405124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelButtons_33
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 98
+        width: 153
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d685c624bbf034c0800000000000000
+      internalID: -4309668092230400298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
