@@ -11,6 +11,8 @@ TagManager:
   - Ladder
   - Platform
   - Water
+  - Gold
+  - Enemy
   layers:
   - Default
   - TransparentFX

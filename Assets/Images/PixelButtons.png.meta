@@ -221,6 +221,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -985,7 +998,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PixelButtons_0: -3978546750201040967
+      PixelButtons_1: 5565632199834654625
+      PixelButtons_10: -3479878303287320486
+      PixelButtons_11: 1609460725758603779
+      PixelButtons_12: -7535608982851085681
+      PixelButtons_13: -8152260342519116128
+      PixelButtons_14: -1292907498867017552
+      PixelButtons_15: -7119168954834990042
+      PixelButtons_16: -8737181842205355822
+      PixelButtons_17: -6678637764432662831
+      PixelButtons_18: 2755969193093833294
+      PixelButtons_19: -881699459856639321
+      PixelButtons_2: 2982861513129395
+      PixelButtons_20: -2255974632039229365
+      PixelButtons_21: -4203271943702620711
+      PixelButtons_22: -7009976207267007965
+      PixelButtons_23: -3565367707374361166
+      PixelButtons_24: -580150039347049437
+      PixelButtons_25: -3814834467430587621
+      PixelButtons_26: 8057749394262469052
+      PixelButtons_27: -7861540000533746483
+      PixelButtons_28: 9103546120237416267
+      PixelButtons_29: 8090891629936909614
+      PixelButtons_3: -6074413498970461032
+      PixelButtons_30: -4743885058610316511
+      PixelButtons_31: -4633641016778842474
+      PixelButtons_32: -4686959536963405124
+      PixelButtons_33: -4309668092230400298
+      PixelButtons_4: -5750071804339058782
+      PixelButtons_5: -2531384794715774990
+      PixelButtons_6: -4360186314438745599
+      PixelButtons_7: -5096788125645719633
+      PixelButtons_8: -3909366194763924176
+      PixelButtons_9: 503095000266048754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

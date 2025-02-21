@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 public class PlayerControl : MonoBehaviour
 {
     public float speed;
@@ -11,6 +12,10 @@ public class PlayerControl : MonoBehaviour
     public Button reloadButton;
     bool shouldJump = true;
     bool left = false;
+    int goldCounter = 0;
+    int health = 3;
+
+
 
     private Rigidbody2D rb;
     Animator playerAnimator;
@@ -93,17 +98,41 @@ public class PlayerControl : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 1.65f);
             
         }
+        if (collision.transform.CompareTag("Enemy"))
+        {
+            //Vector2 knockbackDirection = (transform.position - collision.transform.position).normalized;
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 0.5f);
+            health --;
+            Debug.Log(health);
+        }
         if (collision.transform.CompareTag("Water"))
         {
             SceneManager.LoadScene("GameScene");
         }
-        if(collision.transform.CompareTag("Finish"))
+        if(collision.transform.CompareTag("Finish") || health == 0)
         {
             Time.timeScale = 0f;
             finishText.gameObject.SetActive(true);
             reloadButton.gameObject.SetActive(true);
         }
         
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.transform.CompareTag("Gold"))
+        {
+            goldCounter++;
+            Destroy(collision.gameObject);
+            Debug.Log(goldCounter);
+            //ekrana yazd�r
+        }
+        if(collision.transform.CompareTag("Enemy"))
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 0.5f);
+            Destroy(collision.gameObject);
+        }
     }
 
     public void ReloadGame()
@@ -111,5 +140,5 @@ public class PlayerControl : MonoBehaviour
         SceneManager.LoadScene("GameScene");
         Time.timeScale = 1f;
     }
-    
+
 }
