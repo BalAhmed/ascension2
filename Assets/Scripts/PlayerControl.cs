@@ -66,6 +66,7 @@ public class PlayerControl : MonoBehaviour
                 rb.linearVelocity = new Vector3(rb.linearVelocityX, jumpForce, 0);
                 shouldJump = false;
                 playerAnimator.SetBool("Jump", true);
+                
                 soundControl.PlayOneShot(jumpSound);
             }
         }
