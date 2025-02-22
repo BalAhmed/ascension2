@@ -16,11 +16,11 @@ public class PlayerControl : MonoBehaviour
     public AudioClip damageSound;
     public AudioClip finishSound;
     public GameObject GameMusic;
+    public GameObject[] hearts;
     bool shouldJump = true;
     bool left = false;
     int goldCounter = 0;
     int health = 3;
-    public Text healthText;
     public Text coinText;
     
     public float knockbackForce = 10f; 
@@ -163,7 +163,7 @@ public class PlayerControl : MonoBehaviour
             {
                 StartCoroutine(Knockback(collision.transform));
                 health --;
-                healthText.text = health.ToString();
+                UpdateHeartsUI();
                 soundControl.PlayOneShot(damageSound);
                 if (health == 0)
                 {
@@ -193,6 +193,17 @@ public class PlayerControl : MonoBehaviour
 
         rb.linearVelocity = Vector2.zero;
         isKnockedBack = false;
+    }
+
+    void UpdateHeartsUI()
+    {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < health)
+                hearts[i].SetActive(true);  
+            else
+                hearts[i].SetActive(false); 
+        }
     }
 
 }
