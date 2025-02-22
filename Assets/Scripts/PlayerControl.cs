@@ -125,7 +125,7 @@ public class PlayerControl : MonoBehaviour
         {
             SceneManager.LoadScene("GameScene");
         }
-        if(collision.transform.CompareTag("Finish") || health == 0)
+        if(collision.transform.CompareTag("Finish"))
         {
             Time.timeScale = 0f;
             finishText.gameObject.SetActive(true);
@@ -160,6 +160,12 @@ public class PlayerControl : MonoBehaviour
                 health --;
                 healthText.text = health.ToString();
                 soundControl.PlayOneShot(damageSound);
+                if (health == 0)
+                {
+                    Time.timeScale = 0f;
+                    finishText.gameObject.SetActive(true);
+                    reloadButton.gameObject.SetActive(true);
+                }
             }
         }
     }
