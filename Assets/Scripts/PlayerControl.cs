@@ -18,6 +18,8 @@ public class PlayerControl : MonoBehaviour
     bool left = false;
     int goldCounter = 0;
     int health = 3;
+    public Text healthText;
+    public Text coinText;
     
     public float knockbackForce = 10f; 
     public float knockbackDuration = 0.2f;
@@ -139,8 +141,8 @@ public class PlayerControl : MonoBehaviour
         {
             goldCounter++;
             Destroy(collision.gameObject);
-            Debug.Log(goldCounter);
-            //ekrana yazd�r
+            coinText.text = goldCounter.ToString();
+            
         }
         if(collision.transform.CompareTag("Enemy"))
         {
@@ -155,8 +157,8 @@ public class PlayerControl : MonoBehaviour
             else
             {
                 StartCoroutine(Knockback(collision.transform));
-                //health --;
-                Debug.Log(health);
+                health --;
+                healthText.text = health.ToString();
                 soundControl.PlayOneShot(damageSound);
             }
         }
