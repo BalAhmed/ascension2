@@ -10,6 +10,9 @@ public class PlayerControl : MonoBehaviour
     public float trampolineForce;
     public Text finishText;
     public Button reloadButton;
+    public AudioSource soundControl;
+    public AudioClip jumpSound;
+    public AudioClip damageSound;
     bool shouldJump = true;
     bool left = false;
     int goldCounter = 0;
@@ -63,6 +66,7 @@ public class PlayerControl : MonoBehaviour
                 rb.linearVelocity = new Vector3(rb.linearVelocityX, jumpForce, 0);
                 shouldJump = false;
                 playerAnimator.SetBool("Jump", true);
+                soundControl.PlayOneShot(jumpSound);
             }
         }
         if (Mathf.Approximately(rb.linearVelocityY,0) && playerAnimator.GetBool("Jump"))
@@ -106,6 +110,7 @@ public class PlayerControl : MonoBehaviour
             //rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 0.5f);
             //health --;
             Debug.Log(health);
+            soundControl.PlayOneShot(damageSound);
         }
         if (collision.transform.CompareTag("Water"))
         {
