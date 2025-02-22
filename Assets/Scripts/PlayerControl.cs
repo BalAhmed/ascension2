@@ -100,9 +100,11 @@ public class PlayerControl : MonoBehaviour
         }
         if (collision.transform.CompareTag("Enemy"))
         {
-            //Vector2 knockbackDirection = (transform.position - collision.transform.position).normalized;
-            rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 0.5f);
-            health --;
+            
+            Vector2 knockbackDirection = (transform.position - collision.transform.position).normalized;
+            transform.position = new Vector2((transform.position.x + knockbackDirection.x) * 2, transform.position.y + knockbackDirection.y);
+            //rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 0.5f);
+            //health --;
             Debug.Log(health);
         }
         if (collision.transform.CompareTag("Water"))
