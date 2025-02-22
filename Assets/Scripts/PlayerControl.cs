@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -17,6 +18,10 @@ public class PlayerControl : MonoBehaviour
     bool left = false;
     int goldCounter = 0;
     int health = 3;
+    
+    public float knockbackForce = 10f; 
+    public float knockbackDuration = 0.2f;
+    private bool isKnockedBack = false;
 
 
 
@@ -39,6 +44,7 @@ public class PlayerControl : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (isKnockedBack) return;
 
         float moveHorizontal = Input.GetAxis("Horizontal");
         playerAnimator.SetFloat("Speed", Mathf.Abs(moveHorizontal));
@@ -103,7 +109,7 @@ public class PlayerControl : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 1.65f);
             
         }
-        if (collision.transform.CompareTag("Enemy"))
+        /*if (collision.transform.CompareTag("Enemy"))
         {
             
             Vector2 knockbackDirection = (transform.position - collision.transform.position).normalized;
@@ -112,7 +118,7 @@ public class PlayerControl : MonoBehaviour
             //health --;
             Debug.Log(health);
             soundControl.PlayOneShot(damageSound);
-        }
+        }*/
         if (collision.transform.CompareTag("Water"))
         {
             SceneManager.LoadScene("GameScene");
@@ -138,8 +144,21 @@ public class PlayerControl : MonoBehaviour
         }
         if(collision.transform.CompareTag("Enemy"))
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocityX, trampolineForce * 0.5f);
-            Destroy(collision.gameObject);
+            float playerY = transform.position.y;
+            float enemyY = collision.transform.position.y;
+
+            if (playerY > enemyY + 0.2f)
+            {
+                Destroy(collision.gameObject);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, 10f);
+            }
+            else
+            {
+                StartCoroutine(Knockback(collision.transform));
+                //health --;
+                Debug.Log(health);
+                soundControl.PlayOneShot(damageSound);
+            }
         }
     }
 
@@ -147,6 +166,20 @@ public class PlayerControl : MonoBehaviour
     {
         SceneManager.LoadScene("GameScene");
         Time.timeScale = 1f;
+    }
+
+    private IEnumerator Knockback(Transform enemy)
+    {
+        if (isKnockedBack) yield break;
+        isKnockedBack = true;
+
+        Vector2 knockbackDirection = (transform.position - enemy.position).normalized;
+        rb.linearVelocity = knockbackDirection * knockbackForce;
+
+        yield return new WaitForSeconds(knockbackDuration);
+
+        rb.linearVelocity = Vector2.zero;
+        isKnockedBack = false;
     }
 
 }
