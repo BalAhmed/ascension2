@@ -14,6 +14,8 @@ public class PlayerControl : MonoBehaviour
     public AudioSource soundControl;
     public AudioClip jumpSound;
     public AudioClip damageSound;
+    public AudioClip finishSound;
+    public GameObject GameMusic;
     bool shouldJump = true;
     bool left = false;
     int goldCounter = 0;
@@ -127,6 +129,9 @@ public class PlayerControl : MonoBehaviour
         }
         if(collision.transform.CompareTag("Finish"))
         {
+            Destroy(GameMusic);
+            soundControl.Stop();
+            soundControl.PlayOneShot(finishSound);
             Time.timeScale = 0f;
             finishText.gameObject.SetActive(true);
             reloadButton.gameObject.SetActive(true);
