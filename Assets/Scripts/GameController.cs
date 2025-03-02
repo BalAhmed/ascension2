@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-
     public GameObject MainMenu;
     public GameObject SettingsMenu;
 
@@ -35,6 +34,7 @@ public class MenuController : MonoBehaviour
 
     public void ClickSettings()
     {
+        
         MainMenu.SetActive(false);
         SettingsMenu.SetActive(true);
     }

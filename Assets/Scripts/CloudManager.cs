@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
+
 public class CloudManager : MonoBehaviour
 {
     public GameObject cloudPrefab; // Bulut prefabý (UI Image olarak kullanýlacak)
@@ -21,8 +22,9 @@ public class CloudManager : MonoBehaviour
         for (int i = 0; i < cloudCount; i++)
         {
             GameObject cloud = Instantiate(cloudPrefab, canvasTransform);
-            cloud.GetComponent<RectTransform>().anchoredPosition = new Vector2(Random.Range(-400, 400), Random.Range(minY, maxY));
+            cloud.GetComponent<RectTransform>().anchoredPosition = new Vector2(Random.Range(-700, 800), Random.Range(minY, maxY));
             cloudPool.Add(cloud);
+            cloud.transform.SetSiblingIndex(2);
         }
 
         InvokeRepeating("SpawnCloud", 0f, spawnRate);
